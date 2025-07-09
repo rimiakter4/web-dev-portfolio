@@ -15,6 +15,7 @@ nav{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left,bottom right;
+    margin-bottom: 130px;
     
 }
 .btn{
@@ -74,4 +75,38 @@ nav ul a {
 .banner-img{
 width: 584px;
 height: 676px;
+}
+.section-title{
+    font-size: 35;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.section{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    line-height: 0px
+}
+.item-description{
+    font-weight: 600;
+
 }
