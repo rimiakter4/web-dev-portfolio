@@ -26,6 +26,7 @@ nav{
     border-radius: 5px;
     font-size: 20px;
     border: none;
+
 }
 .nav-title{
     font-weight: 800;
@@ -53,9 +54,6 @@ nav ul a {
     color: #474747;
 }
 
-.text-center{
-    text-align: center;
-}
 .banner{
     display: flex;
     justify-content: space-between;
@@ -72,6 +70,10 @@ nav ul a {
 .dar-1{
     #181818;
 }
+
+.text-center{
+    text-align: center;
+}
 .banner-h1{
     font-size: 85px;
     font-weight: bold;
@@ -84,8 +86,9 @@ height: 676px;
     font-size: 35;
     font-weight: bold;
     color: #181818;
-    margin-bottom: 20}
-     .section-description,.skill-description{
+    margin-bottom: 20
+}
+     .section-description,.skill-description,.experience-description{
     font-size: 18px;
     line-height: 30px;
     color: #757575;
@@ -132,5 +135,54 @@ main section{
 }
 .skill-item{
     padding: 30px;
-    box-shadow: 0px 6px 50px 0px   rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 6px 50px 10px   rgba(0, 0, 0, 0.06);
 }
+.resume-container{
+    display: flex;
+    gap: 30px;
+
+
+}
+
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+    
+}
+.experience-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;color: #474747;
+}
+.btn-center{
+    text-align: center;
+    margin-top: 50px
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 200px;
+    align-items: center
+}
+    .font-size{
+        font-size: 35px;
+    }  
+    .footer-column{
+        width: 50%;
+    }
+    footer input[type="text"],input[type="email"],textarea{ 
+        height: 46px;
+        width:  100%;
+        border-radius: 5px;
+        background-color: white;
+        border: none;
+        padding: 10px;
+        display: block;
+        
+    }
